@@ -1,0 +1,13 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "no-unused-vars": [0, {
+      // 允许声明未使用变量
+      "vars": "local",
+      // 参数不检查
+      "args": "none"
+    }],
+    "no-trailing-spaces": 0,
+    "space-before-function-paren": [0, "always"]
+  }
+}
