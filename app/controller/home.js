@@ -37,11 +37,12 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async index() {
     const { ctx, service } = this;
-    const id = await service.home.getData(ctx.request.body);
-    // const post = await this.app.mysql.select('t_admin');
-    ctx.body = {
-      topic_id: id,
-    };
+    // const id = await service.home.getData(ctx.request.body);
+    // // const post = await this.app.mysql.select('t_admin');
+    // ctx.body = {
+    //   topic_id: id,
+    // };
+    ctx.body = 'hello world![]~(￣▽￣)~*';
     ctx.status = 200;
   }
 
