@@ -1,5 +1,6 @@
 'use strict';
 
+// config.prod.js 跟config.default.js一样。只是隐藏了配置密码。
 // appInfo.root内置的有
 // pkg	package.json
 // name	应用名，同 pkg.name
